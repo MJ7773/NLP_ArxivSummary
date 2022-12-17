@@ -82,7 +82,6 @@ class Evaluate(object):
                 start = time.time()
             batch = self.batcher.next_batch()
 
-
 if __name__ == '__main__':
     model_filename = sys.argv[1]
     eval_processor = Evaluate(model_filename)
