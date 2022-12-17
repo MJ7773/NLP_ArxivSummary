@@ -291,5 +291,3 @@ if __name__ == '__main__':
     # print(dir(embedding.weight.data))
     # print(dir(embedding))
     # print(embedding.__dict__)
-
-
